@@ -7,6 +7,7 @@ Built using:
 * [Dingo API](https://github.com/dingo/api)
 * [JSON Web Token Authentication for Laravel](https://github.com/tymondesigns/jwt-auth) 
 * [Fractal](https://github.com/thephpleague/fractal)
+* [Laravel API Documentation Generator](https://github.com/mpociot/laravel-apidoc-generator)
 * [Tighten Co. Quicksand](https://github.com/tightenco/quicksand)
 
 ## Setup
@@ -44,9 +45,9 @@ $ php artisan api:generate --router="dingo" --routePrefix="v1" --bindings="id,3"
 Parking Lot:
 * Add tests for forgot password, reset password etc
 * ? Make JSON API compliant using https://github.com/tobscure/json-api 
-* ? Use queues by default for all requests?
+* ? Use queues by default for all requests (SOAesque)
 * ? Create walk through 
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+This starter kit is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
