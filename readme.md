@@ -76,6 +76,7 @@ $ php artisan api:generate --router="dingo" --routePrefix="v1" --bindings="id,3"
 Parking Lot:
 * Add tests for forgot password, reset password etc
 * ? Make JSON API compliant using https://github.com/tobscure/json-api 
+* ? Add a console command to generate boilerplate
 * ? Use queues by default for all requests (SOAesque)
 * ? Create walk through 
 
