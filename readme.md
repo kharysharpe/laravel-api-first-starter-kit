@@ -10,11 +10,42 @@ Built using:
 * [Laravel API Documentation Generator](https://github.com/mpociot/laravel-apidoc-generator)
 * [Tighten Co. Quicksand](https://github.com/tightenco/quicksand)
 
-## Setup
+## Prerequisite
+
+Install Composer
+
+See https://getcomposer.org/ for more information
+
+```
+$ curl -sS https://getcomposer.org/installer | php
+$ mv composer.phar /usr/local/bin/composer
+
+```
+
+Install NPM
+
+See https://github.com/npm/npm OR https://www.npmjs.org/ for more information
+
+
+## Setup 
+Clone this repository into a folder `projectname`. Be sure to change projectname to your own project name.
+```
+$ git clone git@github.com:kharysharpe/laravel-api-first-starter-kit.git projectname
+```
+
+Remove git and intialize it as your own
+```
+$ cd projectname
+$ rm -rf .git
+$ git init
+```
+
+Install all NPM packages
 ```
 $ npm install
 ```
 
+Install all composer packages
 ```
 $ composer install
 ```
